@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Догляд | PinkCats</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="petals">
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+<span>🌸</span>
+</div>
+
+<header>
+
+<div class="logo">🐾 PinkCats</div>
+
+<nav>
+<a href="index.html">Головна</a>
+<a href="breeds.html">Породи</a>
+<a href="gallery.html">Галерея</a>
+<a href="care.html">Догляд</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-box">
+
+<div>
+
+<h1>Догляд за <span>котиками</span> 🐱</h1>
+
+<p>
+
+Щасливий кіт — це правильне харчування,
+регулярний догляд та багато любові.
+Тут зібрані найважливіші поради.
+
+</p>
+
+<a href="#care" class="button">
+
+Дізнатися більше 💗
+
+</a>
+
+</div>
+
+<div>
+
+<img src="images (6).jpg" alt="Cat Care">
+
+</div>
+
+</div>
+
+</section>
+
+<section id="care">
+
+<h2 class="title">
+
+Як правильно доглядати?
+
+</h2>
+
+<p class="subtitle">
+
+Прості правила, які допоможуть
+вашому пухнастику бути здоровим.
+
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🥩 Харчування</h3>
+
+<p>
+
+Обирайте якісний корм,
+завжди залишайте чисту воду
+та не перегодовуйте котика.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🧼 Гігієна</h3>
+
+<p>
+
+Регулярно чистіть лоток,
+розчісуйте шерсть
+і доглядайте за кігтями.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🩺 Ветеринар</h3>
+
+<p>
+
+Проходьте профілактичні огляди
+та не забувайте про вакцинацію.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🧸 Іграшки</h3>
+
+<p>
+
+Активні ігри допомагають
+котикам підтримувати
+гарну фізичну форму.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>😴 Сон</h3>
+
+<p>
+
+Коти сплять до 16 годин,
+тому подбайте про затишне місце.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>❤️ Любов</h3>
+
+<p>
+
+Даруйте своєму котику
+увагу, турботу
+та багато ласки.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">
+
+Корисні поради 🌸
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>💧 Вода</h3>
+
+<p>
+
+Щодня змінюйте воду,
+щоб вона була свіжою.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🏡 Дім</h3>
+
+<p>
+
+Створіть котику безпечне,
+тепле місце для відпочинку.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🐾 Турбота</h3>
+
+<p>
+
+Грайтеся зі своїм улюбленцем
+та приділяйте йому час щодня.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 PinkCats • Care 💗
+
+</p>
+
+</footer>
+
+</body>
+</html>
