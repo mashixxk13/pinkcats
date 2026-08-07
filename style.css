@@ -325,3 +325,31 @@ color:#75596c;
         display:block;
     }
 }
+header{
+    width:95%;
+    padding:12px 15px;
+}
+
+nav{
+    display:flex;
+    gap:18px;
+    overflow-x:auto;
+    scrollbar-width:none;
+}
+
+nav::-webkit-scrollbar{
+    display:none;
+}
+
+nav a{
+    white-space:nowrap;
+    font-size:14px;
+}
+
+.logo{
+    font-size:22px;
+}
+
+.hero{
+    padding-top:170px;
+}
