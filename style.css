@@ -307,19 +307,13 @@ line-height:1.8;
 
 color:#75596c;
 
-}footer{
-    width:92%;
-    max-width:1200px;
-    margin:80px auto 30px;
-    padding:25px;
-    text-align:center;
-    background:rgba(255,255,255,.6);
-    backdrop-filter:blur(15px);
-    border-radius:30px;
-    box-shadow:0 15px 35px rgba(255,120,179,.15);
 }
 
-footer p{
-    color:#FBE2EC;
-    font-size:15px;
+
+footer{
+    background:#ffe8f3;
+    text-align:center;
+    padding:35px;
+    margin-top:70px;
+    color:#777;
 }
