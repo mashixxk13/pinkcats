@@ -308,3 +308,20 @@ line-height:1.8;
 color:#75596c;
 
 }
+@media (max-width: 768px) {
+    .hero h1{
+        font-size: 48px;
+        line-height: 1.15;
+    }
+
+    .hero-box{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .hero img{
+        width:85%;
+        margin:auto;
+        display:block;
+    }
+}
