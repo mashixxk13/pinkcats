@@ -307,49 +307,19 @@ line-height:1.8;
 
 color:#75596c;
 
-}
-@media (max-width: 768px) {
-    .hero h1{
-        font-size: 48px;
-        line-height: 1.15;
-    }
-
-    .hero-box{
-        grid-template-columns:1fr;
-        gap:30px;
-    }
-
-    .hero img{
-        width:85%;
-        margin:auto;
-        display:block;
-    }
-}
-header{
-    width:95%;
-    padding:12px 15px;
+}footer{
+    width:92%;
+    max-width:1200px;
+    margin:80px auto 30px;
+    padding:25px;
+    text-align:center;
+    background:rgba(255,255,255,.6);
+    backdrop-filter:blur(15px);
+    border-radius:30px;
+    box-shadow:0 15px 35px rgba(255,120,179,.15);
 }
 
-nav{
-    display:flex;
-    gap:18px;
-    overflow-x:auto;
-    scrollbar-width:none;
-}
-
-nav::-webkit-scrollbar{
-    display:none;
-}
-
-nav a{
-    white-space:nowrap;
-    font-size:14px;
-}
-
-.logo{
-    font-size:22px;
-}
-
-.hero{
-    padding-top:170px;
+footer p{
+    color:#6d4960;
+    font-size:15px;
 }
