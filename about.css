@@ -384,5 +384,18 @@ color:#75596c;
 100%{
     transform:translateY(110vh) translateX(-30px) rotate(360deg);
 }
+    footer{
+    width:100%;
+    margin-top:80px;
+    padding:24px 20px;
+    background:#FBE2EC;
+    text-align:center;
+    border-top:1px solid #f6d6e2;
+}
 
+footer p{
+    margin:0;
+    color:#7c5a6d;
+    font-size:14px;
+    font-weight:400;
 }
