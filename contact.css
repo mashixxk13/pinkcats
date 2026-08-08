@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --pink:#ff78b3;
+    --light:#fff7fb;
+    --card:rgba(255,255,255,.45);
+    --text:#5b3551;
+    --shadow:0 20px 40px rgba(255,120,179,.18);
+    --radius:28px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:var(--text);
+    background:radial-gradient(circle at top left,#ffd8ec 0,#fff6fa 35%,#fff 100%);
+}
+
+/* HEADER */
+
+header{
+    position:fixed;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:92%;
+    max-width:1300px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 40px;
+    background:rgba(255,255,255,.55);
+    backdrop-filter:blur(16px);
+    border-radius:999px;
+    box-shadow:0 15px 35px rgba(255,150,190,.15);
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:var(--pink);
+}
+
+nav{
+    display:flex;
+    gap:28px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#75496a;
+    font-weight:500;
+    position:relative;
+    transition:.35s;
+}
+
+nav a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0;
+    height:3px;
+    background:var(--pink);
+    border-radius:20px;
+    transition:.35s;
+}
+
+nav a:hover{
+    color:var(--pink);
+}
+
+nav a:hover::after{
+    width:100%;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:160px 8% 80px;
+}
+
+.hero-box{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:70px;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:25px;
+    line-height:1.2;
+}
+
+.hero span{
+    color:var(--pink);
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+    color:#76556d;
+}
+
+.button{
+    display:inline-block;
+    padding:16px 38px;
+    background:linear-gradient(135deg,#ff94c5,#ff6da8);
+    color:#fff;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    box-shadow:var(--shadow);
+    transition:.3s;
+}
+
+.button:hover{
+    transform:translateY(-5px);
+}
+
+.hero img{
+    width:100%;
+    border-radius:35px;
+    box-shadow:var(--shadow);
+}
